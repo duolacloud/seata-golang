@@ -12,17 +12,17 @@ import (
 )
 
 import (
-	getty2 "github.com/transaction-wg/seata-golang/pkg/base/getty"
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal/codec"
-	"github.com/transaction-wg/seata-golang/pkg/tc/config"
-	"github.com/transaction-wg/seata-golang/pkg/tc/event"
-	"github.com/transaction-wg/seata-golang/pkg/tc/holder"
-	"github.com/transaction-wg/seata-golang/pkg/tc/lock"
-	"github.com/transaction-wg/seata-golang/pkg/tc/session"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
-	time2 "github.com/transaction-wg/seata-golang/pkg/util/time"
+	getty2 "github.com/duolacloud/seata-golang/pkg/base/getty"
+	"github.com/duolacloud/seata-golang/pkg/base/meta"
+	"github.com/duolacloud/seata-golang/pkg/base/protocal"
+	"github.com/duolacloud/seata-golang/pkg/base/protocal/codec"
+	"github.com/duolacloud/seata-golang/pkg/tc/config"
+	"github.com/duolacloud/seata-golang/pkg/tc/event"
+	"github.com/duolacloud/seata-golang/pkg/tc/holder"
+	"github.com/duolacloud/seata-golang/pkg/tc/lock"
+	"github.com/duolacloud/seata-golang/pkg/tc/session"
+	"github.com/duolacloud/seata-golang/pkg/util/log"
+	time2 "github.com/duolacloud/seata-golang/pkg/util/time"
 )
 
 const (

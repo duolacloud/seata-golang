@@ -10,10 +10,10 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/tc/config"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
-	"github.com/transaction-wg/seata-golang/pkg/util/uuid"
+	"github.com/duolacloud/seata-golang/pkg/base/meta"
+	"github.com/duolacloud/seata-golang/pkg/tc/config"
+	"github.com/duolacloud/seata-golang/pkg/util/log"
+	"github.com/duolacloud/seata-golang/pkg/util/uuid"
 )
 
 type BranchSession struct {

@@ -15,9 +15,9 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/client/at/sql/schema"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
-	sql2 "github.com/transaction-wg/seata-golang/pkg/util/sql"
+	"github.com/duolacloud/seata-golang/pkg/client/at/sql/schema"
+	"github.com/duolacloud/seata-golang/pkg/util/log"
+	sql2 "github.com/duolacloud/seata-golang/pkg/util/sql"
 )
 
 var EXPIRE_TIME = 15 * time.Minute

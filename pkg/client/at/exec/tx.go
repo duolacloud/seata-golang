@@ -13,11 +13,11 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	tx2 "github.com/transaction-wg/seata-golang/pkg/client/at/proxy_tx"
-	"github.com/transaction-wg/seata-golang/pkg/client/at/sqlparser/mysql"
-	"github.com/transaction-wg/seata-golang/pkg/client/at/undo/manager"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	"github.com/duolacloud/seata-golang/pkg/base/meta"
+	tx2 "github.com/duolacloud/seata-golang/pkg/client/at/proxy_tx"
+	"github.com/duolacloud/seata-golang/pkg/client/at/sqlparser/mysql"
+	"github.com/duolacloud/seata-golang/pkg/client/at/undo/manager"
+	"github.com/duolacloud/seata-golang/pkg/util/log"
 )
 
 type Tx struct {

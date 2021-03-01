@@ -9,12 +9,12 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
-	"github.com/transaction-wg/seata-golang/pkg/client/at/undo/manager"
-	"github.com/transaction-wg/seata-golang/pkg/client/rm"
-	"github.com/transaction-wg/seata-golang/pkg/client/rpc_client"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	"github.com/duolacloud/seata-golang/pkg/base/meta"
+	"github.com/duolacloud/seata-golang/pkg/base/protocal"
+	"github.com/duolacloud/seata-golang/pkg/client/at/undo/manager"
+	"github.com/duolacloud/seata-golang/pkg/client/rm"
+	"github.com/duolacloud/seata-golang/pkg/client/rpc_client"
+	"github.com/duolacloud/seata-golang/pkg/util/log"
 )
 
 type DataSourceManager struct {

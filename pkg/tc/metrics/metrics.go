@@ -9,9 +9,9 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/tc/event"
-	"github.com/transaction-wg/seata-golang/pkg/util/runtime"
+	"github.com/duolacloud/seata-golang/pkg/base/meta"
+	"github.com/duolacloud/seata-golang/pkg/tc/event"
+	"github.com/duolacloud/seata-golang/pkg/util/runtime"
 )
 
 var (

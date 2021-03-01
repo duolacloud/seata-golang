@@ -5,9 +5,9 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
-	"github.com/transaction-wg/seata-golang/pkg/client/rpc_client"
+	"github.com/duolacloud/seata-golang/pkg/base/meta"
+	"github.com/duolacloud/seata-golang/pkg/base/protocal"
+	"github.com/duolacloud/seata-golang/pkg/client/rpc_client"
 )
 
 type DefaultTransactionManager struct {

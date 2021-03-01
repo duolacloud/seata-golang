@@ -5,8 +5,8 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/tc/config"
-	"github.com/transaction-wg/seata-golang/pkg/tc/session"
+	"github.com/duolacloud/seata-golang/pkg/tc/config"
+	"github.com/duolacloud/seata-golang/pkg/tc/session"
 )
 
 var lockManager LockManager

@@ -9,9 +9,9 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/common"
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/tc/session"
+	"github.com/duolacloud/seata-golang/pkg/base/common"
+	"github.com/duolacloud/seata-golang/pkg/base/meta"
+	"github.com/duolacloud/seata-golang/pkg/tc/session"
 )
 
 func TestDefaultSessionManager_AddGlobalSession_RemoveGlobalSession(t *testing.T) {

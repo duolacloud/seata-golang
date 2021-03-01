@@ -10,7 +10,7 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/client/at/sqlparser"
+	"github.com/duolacloud/seata-golang/pkg/client/at/sqlparser"
 )
 
 type MysqlDeleteRecognizer struct {

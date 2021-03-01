@@ -11,7 +11,7 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/tc/model"
+	"github.com/duolacloud/seata-golang/pkg/tc/model"
 )
 
 var dsn = "root:123456@tcp(127.0.0.1:3306)/seata2?timeout=1s&readTimeout=1s&writeTimeout=1s&parseTime=true&loc=Local&charset=utf8mb4,utf8"

@@ -1,7 +1,7 @@
 package uuid
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/util/time"
+	"github.com/duolacloud/seata-golang/pkg/util/time"
 	"sync/atomic"
 )
 

@@ -1,7 +1,7 @@
 package protocal
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
+	"github.com/duolacloud/seata-golang/pkg/base/meta"
 )
 
 type AbstractTransactionResponse struct {

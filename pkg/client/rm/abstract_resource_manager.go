@@ -9,12 +9,12 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/base/model"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
-	"github.com/transaction-wg/seata-golang/pkg/client/config"
-	"github.com/transaction-wg/seata-golang/pkg/client/context"
-	"github.com/transaction-wg/seata-golang/pkg/client/rpc_client"
+	"github.com/duolacloud/seata-golang/pkg/base/meta"
+	"github.com/duolacloud/seata-golang/pkg/base/model"
+	"github.com/duolacloud/seata-golang/pkg/base/protocal"
+	"github.com/duolacloud/seata-golang/pkg/client/config"
+	"github.com/duolacloud/seata-golang/pkg/client/context"
+	"github.com/duolacloud/seata-golang/pkg/client/rpc_client"
 )
 
 var (

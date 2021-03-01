@@ -2,7 +2,7 @@ package parser
 
 import (
 	"fmt"
-	"github.com/transaction-wg/seata-golang/pkg/util/sql"
+	"github.com/duolacloud/seata-golang/pkg/util/sql"
 	"testing"
 )
 
@@ -11,9 +11,9 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/client/at/sql/schema"
-	"github.com/transaction-wg/seata-golang/pkg/client/at/sqlparser"
-	"github.com/transaction-wg/seata-golang/pkg/client/at/undo"
+	"github.com/duolacloud/seata-golang/pkg/client/at/sql/schema"
+	"github.com/duolacloud/seata-golang/pkg/client/at/sqlparser"
+	"github.com/duolacloud/seata-golang/pkg/client/at/undo"
 )
 
 func getBranchUndoLog() *undo.BranchUndoLog {

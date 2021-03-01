@@ -11,11 +11,11 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/client/at/proxy_tx"
-	"github.com/transaction-wg/seata-golang/pkg/client/at/sql/schema"
-	"github.com/transaction-wg/seata-golang/pkg/client/at/sql/schema/cache"
-	"github.com/transaction-wg/seata-golang/pkg/client/at/sqlparser"
-	"github.com/transaction-wg/seata-golang/pkg/util/mysql"
+	"github.com/duolacloud/seata-golang/pkg/client/at/proxy_tx"
+	"github.com/duolacloud/seata-golang/pkg/client/at/sql/schema"
+	"github.com/duolacloud/seata-golang/pkg/client/at/sql/schema/cache"
+	"github.com/duolacloud/seata-golang/pkg/client/at/sqlparser"
+	"github.com/duolacloud/seata-golang/pkg/util/mysql"
 )
 
 type DeleteExecutor struct {

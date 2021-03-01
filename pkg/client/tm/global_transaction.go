@@ -9,11 +9,11 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/client/config"
-	context2 "github.com/transaction-wg/seata-golang/pkg/client/context"
-	"github.com/transaction-wg/seata-golang/pkg/client/rpc_client"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	"github.com/duolacloud/seata-golang/pkg/base/meta"
+	"github.com/duolacloud/seata-golang/pkg/client/config"
+	context2 "github.com/duolacloud/seata-golang/pkg/client/context"
+	"github.com/duolacloud/seata-golang/pkg/client/rpc_client"
+	"github.com/duolacloud/seata-golang/pkg/util/log"
 )
 
 const (

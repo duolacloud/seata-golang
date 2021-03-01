@@ -14,11 +14,11 @@ import (
 )
 
 import (
-	getty2 "github.com/transaction-wg/seata-golang/pkg/base/getty"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal/codec"
-	"github.com/transaction-wg/seata-golang/pkg/client/config"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	getty2 "github.com/duolacloud/seata-golang/pkg/base/getty"
+	"github.com/duolacloud/seata-golang/pkg/base/protocal"
+	"github.com/duolacloud/seata-golang/pkg/base/protocal/codec"
+	"github.com/duolacloud/seata-golang/pkg/client/config"
+	"github.com/duolacloud/seata-golang/pkg/util/log"
 )
 
 const (

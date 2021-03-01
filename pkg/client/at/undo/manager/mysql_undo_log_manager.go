@@ -12,12 +12,12 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/client/at/proxy_tx"
-	"github.com/transaction-wg/seata-golang/pkg/client/at/sql/schema/cache"
-	"github.com/transaction-wg/seata-golang/pkg/client/at/undo"
-	parser2 "github.com/transaction-wg/seata-golang/pkg/client/at/undo/parser"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
-	sql2 "github.com/transaction-wg/seata-golang/pkg/util/sql"
+	"github.com/duolacloud/seata-golang/pkg/client/at/proxy_tx"
+	"github.com/duolacloud/seata-golang/pkg/client/at/sql/schema/cache"
+	"github.com/duolacloud/seata-golang/pkg/client/at/undo"
+	parser2 "github.com/duolacloud/seata-golang/pkg/client/at/undo/parser"
+	"github.com/duolacloud/seata-golang/pkg/util/log"
+	sql2 "github.com/duolacloud/seata-golang/pkg/util/sql"
 )
 
 const (

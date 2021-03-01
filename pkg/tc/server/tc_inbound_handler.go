@@ -1,6 +1,6 @@
 package server
 
-import "github.com/transaction-wg/seata-golang/pkg/base/protocal"
+import "github.com/duolacloud/seata-golang/pkg/base/protocal"
 
 type TCInboundHandler interface {
 	doGlobalBegin(request protocal.GlobalBeginRequest, ctx RpcContext) protocal.GlobalBeginResponse

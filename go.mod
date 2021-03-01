@@ -1,4 +1,4 @@
-module github.com/transaction-wg/seata-golang
+module github.com/duolacloud/seata-golang
 
 go 1.14
 

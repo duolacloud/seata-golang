@@ -5,11 +5,11 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/client"
-	"github.com/transaction-wg/seata-golang/pkg/client/config"
-	"github.com/transaction-wg/seata-golang/pkg/client/tcc"
-	"github.com/transaction-wg/seata-golang/pkg/client/tm"
-	"github.com/transaction-wg/seata-golang/samples/tcc/service"
+	"github.com/duolacloud/seata-golang/pkg/client"
+	"github.com/duolacloud/seata-golang/pkg/client/config"
+	"github.com/duolacloud/seata-golang/pkg/client/tcc"
+	"github.com/duolacloud/seata-golang/pkg/client/tm"
+	"github.com/duolacloud/seata-golang/samples/tcc/service"
 )
 
 func main() {

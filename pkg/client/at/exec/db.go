@@ -6,10 +6,10 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	tx2 "github.com/transaction-wg/seata-golang/pkg/client/at/proxy_tx"
-	"github.com/transaction-wg/seata-golang/pkg/client/config"
-	"github.com/transaction-wg/seata-golang/pkg/client/context"
+	"github.com/duolacloud/seata-golang/pkg/base/meta"
+	tx2 "github.com/duolacloud/seata-golang/pkg/client/at/proxy_tx"
+	"github.com/duolacloud/seata-golang/pkg/client/config"
+	"github.com/duolacloud/seata-golang/pkg/client/context"
 )
 
 type DB struct {

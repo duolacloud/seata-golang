@@ -5,15 +5,15 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
-	"github.com/transaction-wg/seata-golang/pkg/tc/event"
-	"github.com/transaction-wg/seata-golang/pkg/tc/holder"
-	"github.com/transaction-wg/seata-golang/pkg/tc/lock"
-	"github.com/transaction-wg/seata-golang/pkg/tc/session"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
-	"github.com/transaction-wg/seata-golang/pkg/util/runtime"
-	"github.com/transaction-wg/seata-golang/pkg/util/time"
+	"github.com/duolacloud/seata-golang/pkg/base/meta"
+	"github.com/duolacloud/seata-golang/pkg/base/protocal"
+	"github.com/duolacloud/seata-golang/pkg/tc/event"
+	"github.com/duolacloud/seata-golang/pkg/tc/holder"
+	"github.com/duolacloud/seata-golang/pkg/tc/lock"
+	"github.com/duolacloud/seata-golang/pkg/tc/session"
+	"github.com/duolacloud/seata-golang/pkg/util/log"
+	"github.com/duolacloud/seata-golang/pkg/util/runtime"
+	"github.com/duolacloud/seata-golang/pkg/util/time"
 )
 
 /**

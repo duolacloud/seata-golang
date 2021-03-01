@@ -11,10 +11,10 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/model"
-	"github.com/transaction-wg/seata-golang/pkg/tc/session"
-	"github.com/transaction-wg/seata-golang/pkg/util/hashcode"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	"github.com/duolacloud/seata-golang/pkg/base/model"
+	"github.com/duolacloud/seata-golang/pkg/tc/session"
+	"github.com/duolacloud/seata-golang/pkg/util/hashcode"
+	"github.com/duolacloud/seata-golang/pkg/util/log"
 )
 
 const BucketPerTable = 128

@@ -1,8 +1,8 @@
 package undo
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/client/at/sql/schema"
-	"github.com/transaction-wg/seata-golang/pkg/client/at/sqlparser"
+	"github.com/duolacloud/seata-golang/pkg/client/at/sql/schema"
+	"github.com/duolacloud/seata-golang/pkg/client/at/sqlparser"
 )
 
 type SqlUndoLog struct {

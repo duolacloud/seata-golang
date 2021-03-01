@@ -6,8 +6,8 @@ import (
 )
 
 import (
-	context2 "github.com/transaction-wg/seata-golang/pkg/client/context"
-	"github.com/transaction-wg/seata-golang/pkg/client/tm"
+	context2 "github.com/duolacloud/seata-golang/pkg/client/context"
+	"github.com/duolacloud/seata-golang/pkg/client/tm"
 )
 
 type Service struct {

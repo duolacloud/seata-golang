@@ -2,7 +2,7 @@ package tm
 
 import (
 	"context"
-	"github.com/transaction-wg/seata-golang/pkg/client"
+	"github.com/duolacloud/seata-golang/pkg/client"
 	"testing"
 )
 
@@ -11,7 +11,7 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/client/config"
+	"github.com/duolacloud/seata-golang/pkg/client/config"
 )
 
 type Dog struct {

@@ -6,8 +6,8 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/tc/model"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	"github.com/duolacloud/seata-golang/pkg/tc/model"
+	"github.com/duolacloud/seata-golang/pkg/util/log"
 )
 
 const (

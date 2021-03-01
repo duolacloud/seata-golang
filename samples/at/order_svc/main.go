@@ -11,11 +11,11 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/client"
-	"github.com/transaction-wg/seata-golang/pkg/client/at/exec"
-	"github.com/transaction-wg/seata-golang/pkg/client/config"
-	"github.com/transaction-wg/seata-golang/pkg/client/context"
-	"github.com/transaction-wg/seata-golang/samples/at/order_svc/dao"
+	"github.com/duolacloud/seata-golang/pkg/client"
+	"github.com/duolacloud/seata-golang/pkg/client/at/exec"
+	"github.com/duolacloud/seata-golang/pkg/client/config"
+	"github.com/duolacloud/seata-golang/pkg/client/context"
+	"github.com/duolacloud/seata-golang/samples/at/order_svc/dao"
 )
 
 const configPath = "/Users/scottlewis/dksl/git/1/seata-golang/samples/at/order_svc/conf/client.yml"

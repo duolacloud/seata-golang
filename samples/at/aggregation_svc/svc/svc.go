@@ -10,10 +10,10 @@ import (
 )
 
 import (
-	context2 "github.com/transaction-wg/seata-golang/pkg/client/context"
-	"github.com/transaction-wg/seata-golang/pkg/client/tm"
-	"github.com/transaction-wg/seata-golang/samples/at/order_svc/dao"
-	dao2 "github.com/transaction-wg/seata-golang/samples/at/product_svc/dao"
+	context2 "github.com/duolacloud/seata-golang/pkg/client/context"
+	"github.com/duolacloud/seata-golang/pkg/client/tm"
+	"github.com/duolacloud/seata-golang/samples/at/order_svc/dao"
+	dao2 "github.com/duolacloud/seata-golang/samples/at/product_svc/dao"
 )
 
 type Svc struct {

@@ -9,8 +9,8 @@ import (
 )
 
 import (
-	context2 "github.com/transaction-wg/seata-golang/pkg/client/context"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	context2 "github.com/duolacloud/seata-golang/pkg/client/context"
+	"github.com/duolacloud/seata-golang/pkg/util/log"
 )
 
 var (

@@ -5,10 +5,10 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/tc/model"
-	"github.com/transaction-wg/seata-golang/pkg/tc/session"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	"github.com/duolacloud/seata-golang/pkg/base/meta"
+	"github.com/duolacloud/seata-golang/pkg/tc/model"
+	"github.com/duolacloud/seata-golang/pkg/tc/session"
+	"github.com/duolacloud/seata-golang/pkg/util/log"
 )
 
 type SessionManager interface {

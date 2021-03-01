@@ -15,9 +15,9 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/getty/readwriter"
-	"github.com/transaction-wg/seata-golang/pkg/tc/config"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	"github.com/duolacloud/seata-golang/pkg/base/getty/readwriter"
+	"github.com/duolacloud/seata-golang/pkg/tc/config"
+	"github.com/duolacloud/seata-golang/pkg/util/log"
 )
 
 type Server struct {

@@ -5,8 +5,8 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/tc/model"
-	"github.com/transaction-wg/seata-golang/pkg/tc/session"
+	"github.com/duolacloud/seata-golang/pkg/tc/model"
+	"github.com/duolacloud/seata-golang/pkg/tc/session"
 )
 
 type LogOperation byte

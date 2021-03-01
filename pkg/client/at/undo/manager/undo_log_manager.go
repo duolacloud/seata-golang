@@ -6,7 +6,7 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/client/at/proxy_tx"
+	"github.com/duolacloud/seata-golang/pkg/client/at/proxy_tx"
 )
 
 type UndoLogManager interface {

@@ -12,10 +12,10 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/getty/readwriter"
-	"github.com/transaction-wg/seata-golang/pkg/client/config"
-	getty2 "github.com/transaction-wg/seata-golang/pkg/client/rpc_client"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	"github.com/duolacloud/seata-golang/pkg/base/getty/readwriter"
+	"github.com/duolacloud/seata-golang/pkg/client/config"
+	getty2 "github.com/duolacloud/seata-golang/pkg/client/rpc_client"
+	"github.com/duolacloud/seata-golang/pkg/util/log"
 )
 
 type RpcClient struct {

@@ -11,14 +11,14 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/common"
-	"github.com/transaction-wg/seata-golang/pkg/tc/config"
-	"github.com/transaction-wg/seata-golang/pkg/tc/holder"
-	"github.com/transaction-wg/seata-golang/pkg/tc/lock"
-	_ "github.com/transaction-wg/seata-golang/pkg/tc/metrics"
-	"github.com/transaction-wg/seata-golang/pkg/tc/server"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
-	"github.com/transaction-wg/seata-golang/pkg/util/uuid"
+	"github.com/duolacloud/seata-golang/pkg/base/common"
+	"github.com/duolacloud/seata-golang/pkg/tc/config"
+	"github.com/duolacloud/seata-golang/pkg/tc/holder"
+	"github.com/duolacloud/seata-golang/pkg/tc/lock"
+	_ "github.com/duolacloud/seata-golang/pkg/tc/metrics"
+	"github.com/duolacloud/seata-golang/pkg/tc/server"
+	"github.com/duolacloud/seata-golang/pkg/util/log"
+	"github.com/duolacloud/seata-golang/pkg/util/uuid"
 )
 
 func main() {

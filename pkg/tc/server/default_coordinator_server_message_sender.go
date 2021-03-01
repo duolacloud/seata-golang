@@ -10,7 +10,7 @@ import (
 )
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
+	"github.com/duolacloud/seata-golang/pkg/base/protocal"
 )
 
 func (coordinator *DefaultCoordinator) SendResponse(request protocal.RpcMessage, session getty.Session, msg interface{}) {
