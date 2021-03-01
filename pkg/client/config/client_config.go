@@ -32,6 +32,10 @@ func GetClientConfig() ClientConfig {
 	return clientConfig
 }
 
+func SetClientConfig(c ClientConfig) {
+	clientConfig = c
+}
+
 func GetTMConfig() TMConfig {
 	return clientConfig.TMConfig
 }
@@ -92,10 +96,10 @@ func InitApolloConf(serverAddr string, appId string, nameSpace string) error {
 	}
 
 	var config = a.Get("content", agollo.WithNamespace(nameSpace))
-	return initCommonConf([]byte(config))
+	return InitCommonConf([]byte(config))
 }
 
-func initCommonConf(confStream []byte) error {
+func InitCommonConf(confStream []byte) error {
 	var err error
 	err = yaml.Unmarshal(confStream, &clientConfig)
 	fmt.Println("config", clientConfig)
