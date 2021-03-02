@@ -21,6 +21,10 @@ func GetServerConfig() ServerConfig {
 	return conf
 }
 
+func SetServerConfig(c ServerConfig) {
+	conf = c
+}
+
 func GetStoreConfig() StoreConfig {
 	return conf.StoreConfig
 }
