@@ -1,15 +1,12 @@
 package holder
 
 import (
-	"github.com/pkg/errors"
-)
-
-import (
 	"github.com/duolacloud/seata-golang/pkg/base/meta"
 	"github.com/duolacloud/seata-golang/pkg/tc/config"
 	"github.com/duolacloud/seata-golang/pkg/tc/model"
 	"github.com/duolacloud/seata-golang/pkg/tc/session"
 	"github.com/duolacloud/seata-golang/pkg/util/uuid"
+	"github.com/pkg/errors"
 )
 
 type DataBaseSessionManager struct {

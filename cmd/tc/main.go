@@ -1,24 +1,12 @@
 package main
 
 import (
+	"context"
+	"log"
 	"os"
-	"strconv"
-)
 
-import (
-	gxnet "github.com/dubbogo/gost/net"
-	"github.com/urfave/cli/v2"
-)
-
-import (
-	"github.com/duolacloud/seata-golang/pkg/base/common"
-	"github.com/duolacloud/seata-golang/pkg/tc/config"
-	"github.com/duolacloud/seata-golang/pkg/tc/holder"
-	"github.com/duolacloud/seata-golang/pkg/tc/lock"
-	_ "github.com/duolacloud/seata-golang/pkg/tc/metrics"
-	"github.com/duolacloud/seata-golang/pkg/tc/server"
-	"github.com/duolacloud/seata-golang/pkg/util/log"
-	"github.com/duolacloud/seata-golang/pkg/util/uuid"
+	"github.com/duolacloud/seata-golang/pkg/tc/bootstrap"
+	"github.com/micro/cli/v2"
 )
 
 func main() {
@@ -29,38 +17,39 @@ func main() {
 				Usage: "start seata golang tc server",
 				Flags: []cli.Flag{
 					&cli.StringFlag{
-						Name:  "config, c",
-						Usage: "Load configuration from `FILE`",
+						Name:  "apollo_namespace",
+						Usage: "apollo_namespace",
 					},
 					&cli.StringFlag{
-						Name:  "serverNode, n",
-						Value: "1",
-						Usage: "server node id, such as 1, 2, 3. default is 1",
+						Name:  "apollo_address",
+						Usage: "apollo_address",
+					},
+					&cli.StringFlag{
+						Name:  "apollo_app_id",
+						Usage: "apollo_app_id",
+					},
+					&cli.StringFlag{
+						Name:  "apollo_cluster",
+						Usage: "apollo_cluster",
+					},
+					&cli.StringFlag{
+						Name:    "prometheus_addr",
+						Usage:   "prometheus_addr",
+						EnvVars: []string{"PROMETHEUS_ADDR"},
+						Value:   ":16627",
 					},
 				},
 				Action: func(c *cli.Context) error {
-					configPath := c.String("config")
-					serverNode := c.Int("serverNode")
-					ip, _ := gxnet.GetLocalIP()
-
-					config.InitConf(configPath)
-					conf := config.GetServerConfig()
-					port, _ := strconv.Atoi(conf.Port)
-					common.XID.Init(ip, port)
-
-					uuid.Init(serverNode)
-					lock.Init()
-					holder.Init()
-					srv := server.NewServer()
-					srv.Start(conf.Host + ":" + conf.Port)
+					app := bootstrap.App(c)
+					if err := app.Start(context.Background()); err != nil {
+						log.Fatal(err)
+						return err
+					}
 					return nil
 				},
 			},
 		},
 	}
 
-	err := app.Run(os.Args)
-	if err != nil {
-		log.Error(err)
-	}
+	app.Run(os.Args)
 }

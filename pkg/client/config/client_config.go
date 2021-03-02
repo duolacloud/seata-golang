@@ -4,16 +4,11 @@ import (
 	"fmt"
 	"io/ioutil"
 	"path"
-)
 
-import (
+	"github.com/duolacloud/seata-golang/pkg/client/at/sql/schema/cache"
 	"github.com/pkg/errors"
 	"github.com/shima-park/agollo"
 	"gopkg.in/yaml.v2"
-)
-
-import (
-	"github.com/duolacloud/seata-golang/pkg/client/at/sql/schema/cache"
 )
 
 type ClientConfig struct {
@@ -34,6 +29,13 @@ func GetClientConfig() ClientConfig {
 
 func SetClientConfig(c ClientConfig) {
 	clientConfig = c
+
+	(&clientConfig).GettyConfig.CheckValidity()
+	(&clientConfig).ATConfig.CheckValidity()
+
+	if clientConfig.ATConfig.DSN != "" {
+		cache.SetTableMetaCache(cache.NewMysqlTableMetaCache(clientConfig.ATConfig.DSN))
+	}
 }
 
 func GetTMConfig() TMConfig {

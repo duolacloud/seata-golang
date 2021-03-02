@@ -1,13 +1,10 @@
 package holder
 
 import (
-	"github.com/go-xorm/xorm"
-	"xorm.io/builder"
-)
-
-import (
 	"github.com/duolacloud/seata-golang/pkg/tc/model"
 	"github.com/duolacloud/seata-golang/pkg/util/log"
+	"github.com/go-xorm/xorm"
+	"xorm.io/builder"
 )
 
 const (
@@ -182,6 +179,7 @@ func (dao *LogStoreDataBaseDAO) DeleteBranchTransactionDO(branchTransaction mode
 
 func (dao *LogStoreDataBaseDAO) GetCurrentMaxSessionId(high int64, low int64) int64 {
 	var maxTransactionId, maxBranchId int64
+	log.Infof("QueryMaxTransactionId: %v\n", QueryMaxTransactionId)
 	_, err := dao.engine.SQL(QueryMaxTransactionId, high, low).
 		Cols("maxTransactionId").
 		Get(&maxTransactionId)
